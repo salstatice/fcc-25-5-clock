@@ -1,0 +1,89 @@
+html {
+  background: #D8E2DC;
+}
+
+#app {
+  background-color: #D8E2DC;
+  margin: auto;
+  height: 100%;
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+.appWrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.appWrapper h1 {
+  padding: 1rem;
+  font-weight: 600;
+  text-shadow: 1px 1px #FFE5D9;
+}
+
+#adjusterWrapper {
+  background-color: #D8E2DC;
+  display: flex;
+  justify-content: space-evenly;
+}
+#adjusterWrapper .adjuster {
+  border-radius: 15px;
+  width: 30%;
+  min-width: 300px;
+  padding: 1rem;
+  font-size: 3rem;
+}
+#adjusterWrapper .adjuster h3 {
+  padding: 0.5rem;
+  font-weight: 600;
+}
+#adjusterWrapper .adjuster p {
+  font-size: 3rem;
+}
+#adjusterWrapper button {
+  background-color: transparent;
+  border: none;
+}
+#adjusterWrapper button i {
+  color: #9D8189;
+  font-size: 4rem;
+}
+
+#timerWrapper {
+  background-color: #FFE5D9;
+  border: 8px solid #9D8189;
+  border-radius: 15px;
+  width: 40%;
+  align-self: center;
+  margin: 2rem;
+}
+#timerWrapper h2 {
+  font-weight: 600;
+}
+#timerWrapper p {
+  font-size: 6rem;
+}
+
+#timer-control {
+  width: 40%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+#timer-control button {
+  background-color: transparent;
+  border: none;
+  font-size: 4rem;
+  margin: 0rem 1rem;
+}
+#timer-control button i {
+  color: #F4ACB7;
+  text-shadow: 3px 3px #FFCAD4;
+}
+
+@media (max-width: 600px) {
+  #adjusterWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
